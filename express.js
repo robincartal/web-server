@@ -21,7 +21,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/about', function (req, res) {
-  res.send('About')
+  res.send('About us!')
 })
 
 app.use( express.static(__dirname + "/public") );
